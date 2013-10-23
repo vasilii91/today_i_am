@@ -156,7 +156,7 @@
     
     else if([date compare:[NSDate date]] != NSOrderedDescending)
     {
-        CustomAlertView *alert = [[CustomAlertView alloc]initWithTitle:@"Do you want to set an entry for this date?" message:@"" delegate:self cancelButtonTitle:@"Yes" otherButtonTitles:@"No",nil];
+        CustomAlertView *alert = [[CustomAlertView alloc]initWithTitle:@"Do you want to set an entry for this date?" message:@"" delegate:self cancelButtonTitle:LOC(@"key.button_yes") otherButtonTitles:LOC(@"key.button_no"),nil];
         
         [alert show];
         return;

@@ -1,0 +1,90 @@
+/* 
+  Localizable.strings
+  Today I Am
+
+  Created by Vasilii Kasnitski on 10/17/13.
+  Copyright (c) 2013 AAPBD-REDOAN. All rights reserved.
+*/
+
+"key.today_i_am" = "今日の気持ちは...";
+"key.diary" = "ダイアリー";
+"key.happiness_history" = "幸せヒストリー";
+"key.edit_your_emotions" = "エモーションの編集";
+"key.privacy_lock" = "プラーバシーロック";
+"key.restore_or_update" = "アップグレード";
+
+"key.this_month_i_am" = "This month I am...";
+
+"key.rename_to" = "エモーション名 %@ 変更";
+"key.this_week_i_have_been" = "今週の気持ちは...";
+"key.this_month_i_have_been" = "今月の気持ちは...";
+"key.this_year_i_have_been" = "今年の気持ちは...";
+
+"key.edit_your_emotions" = "エモーションの編集";
+
+"key.enter_new_password" = "パスワードの入力";
+"key.enter_new_password_again" = "パスワードの再入力";
+"key.enter_current_password" = "現存パスワードの入力";
+
+"key.change_password" = "パスワードの変更";
+
+"key.button_next" = "次";
+"key.button_save" = "保存";
+"key.button_yes" = "はい";
+"key.button_no" = "いいえ";
+"key.button_upload" = "アップロード";
+"key.button_i_am_also" = "あと";
+"key.button_done" = "決定";
+"key.button_cancel" = "キャンセル";
+"key.button_ok" = "OK";
+
+"key.how_are_you" = "どれくらい %@？";
+"key.why_are_you" = "どうして %@?";
+
+"key.this_entry_has_not_been" = "このエントリーは保存又はアップロードされていません。保存又はアップロードしますか？\n\n";
+"key.saved_to_diary" = "ダイアリーに保存";
+"key.you_already_have_records" = "You already have records for today!";
+"key.want_to_replace_them" = "Want to replace them?";
+
+"key.your_top_5_emotions" = "* Your top 5 emotions";
+
+"key.privacy_lock_activated" = "プライバシーロックが有効になりました。パスワードを忘れないで下さい！";
+"key.failed" = "失敗";
+"key.passwords_did_not_matched" = "パスワードの不一致";
+"key.error" = "ERROR";
+"key.wrong_password" = "Wrong Password!";
+"key.success" = "Success";
+"key.password_changed" = "Passwords Changed!";
+"key.email" = "Eメール";
+"key.save_to_camera" = "カメラロールに保存";
+
+"key.Ecstatic" = "夢の中";
+"key.Relaxed" = "リラックス";
+"key.Bored" = "退屈";
+"key.Excited" = "ワクワク気分";
+"key.Crazy" = "クレイジー";
+"key.Grumpy" = "頑固";
+"key.Happy" = "ハッピー";
+"key.Silly" = "おバカ";
+"key.Exhausted" = "お疲れ";
+"key.Lovestruck" = "メロメロ";
+"key.Shocked" = "ショック";
+"key.Guilty" = "罪悪感";
+"key.Inspired" = "ひらめきモード";
+"key.Confused" = "困惑中";
+"key.Stressed" = "ストレス気味";
+"key.Proud" = "誇り気";
+"key.Restless" = "落ち着かない";
+"key.Sick" = "病気味";
+"key.Confident" = "自信満々";
+"key.Emotional" = "感情的";
+"key.Heartbroken" = "ハートブレイク";
+"key.Grateful" = "感謝・感激";
+"key.Nervous" = "ナーバス";
+"key.Lonely" = "淋しい";
+"key.Content" = "満足";
+"key.Jealous" = "ジェラシー";
+"key.Sad" = "悲しい";
+"key.Hopeful" = "希望いっぱい";
+"key.Scared" = "怖い";
+"key.Angry" = "激おこプンプン";

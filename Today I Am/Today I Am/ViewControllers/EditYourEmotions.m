@@ -163,7 +163,7 @@
     
     renameField.text = [emotions objectAtIndex:currentEmotion];
     UILabel *label = (UILabel*)[self.view viewWithTag:101];
-    label.text = [NSString stringWithFormat:@"Rename %@ to",[emotions objectAtIndex:currentEmotion]];
+    label.text = [NSString stringWithFormat:LOC(@"key.rename_to"),[emotions objectAtIndex:currentEmotion]];
     [UIView beginAnimations:@"emoDetail" context:nil];
 
     renameView.frame = CGRectMake(0, 0, 320, [[UIScreen mainScreen]bounds].size.height);

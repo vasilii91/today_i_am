@@ -11,6 +11,9 @@
 #define FONT_NAME_CHINESE @"FangSong"
 #define FONT_NAME_KOREAN @"Batang"
 
+#warning change it!!!
+#define FONT_NAME_JAPANESE @"Batang"
+
 @implementation FontManager
 
 + (NSString *)currentFontName
@@ -22,6 +25,9 @@
     }
     else if ([language isEqualToString:@"ko"]) {
         return FONT_NAME_KOREAN;
+    }
+    else if ([language isEqualToString:@"ja"]) {
+        return FONT_NAME_JAPANESE;
     }
     
     return FONT_NAME_CHINESE;

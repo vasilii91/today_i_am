@@ -36,9 +36,9 @@
 -(void)viewDidAppear:(BOOL)animated{
     UIActionSheet*sheet = [[UIActionSheet alloc] initWithTitle:nil
                                         delegate:self
-                               cancelButtonTitle:@"Cancel"
+                               cancelButtonTitle:LOC(@"key.button_cancel")
                           destructiveButtonTitle:nil
-                               otherButtonTitles:@"Facebook", @"Twitter", @"Email", @"Save to Camera Roll", nil];
+                               otherButtonTitles:@"Facebook", @"Twitter", LOC(@"key.email"), LOC(@"key.save_to_camera"), nil];
     
     // Show the sheet
     [sheet showInView:self.view];
@@ -225,7 +225,7 @@
                 // in real life, we could put up interface asking for access
                 NSLog(@"%@", @"No access");
                 //return;
-                UIAlertView*alert = [[UIAlertView alloc]initWithTitle:@"\"Today I'm...\" would like to access your photos" message:@"Please set permission to access your Photo library in Settings" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+                UIAlertView*alert = [[UIAlertView alloc]initWithTitle:@"App would like to access your photos" message:@"Please set permission to access your Photo library in Settings" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
                 [alert show];
                 //[self performSelector:@selector(hideAlert:) withObject:alert afterDelay:5];
             }

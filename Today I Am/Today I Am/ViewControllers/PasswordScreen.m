@@ -125,14 +125,13 @@
             [digit1 setText:@""];
             [digit1 becomeFirstResponder];
             step++;
-            //        return;
         }
         
         
         else if (step == 1) {
             if(password1 == [digit1.text intValue])
             {
-                [[[CustomAlertView alloc]initWithTitle:@"Privacy Lock Activated! Please don't forget your password." message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil]show];
+                [[[CustomAlertView alloc]initWithTitle:LOC(@"key.privacy_lock_activated") message:@"" delegate:nil cancelButtonTitle:LOC(@"key.button_ok") otherButtonTitles: nil]show];
                 [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithInt:password1] forKey:@"password"];
                 [[NSUserDefaults standardUserDefaults]synchronize];
                 [self.navigationController popToRootViewControllerAnimated:YES];
@@ -140,7 +139,7 @@
             
             else
             {
-                [[[CustomAlertView alloc]initWithTitle:@"Failed" message:@"Passwords Did not Matched!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil]show];
+                [[[CustomAlertView alloc]initWithTitle:LOC(@"key.failed") message:LOC(@"key.passwords_did_not_matched") delegate:nil cancelButtonTitle:LOC(@"key.button_ok") otherButtonTitles: nil]show];
                 
                 [digit1 setText:@""];
                 [digit1 becomeFirstResponder];
@@ -157,7 +156,7 @@
             password1 = [digit1.text intValue];
             
             if (password1 != [[[NSUserDefaults standardUserDefaults]objectForKey:@"password"] intValue]) {
-                [[[CustomAlertView alloc]initWithTitle:@"ERROR" message:@"Wrong Password!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil]show];
+                [[[CustomAlertView alloc]initWithTitle:LOC(@"key.error") message:LOC(@"key.wrong_password") delegate:nil cancelButtonTitle:LOC(@"key.button_ok") otherButtonTitles: nil]show];
                 [digit1 setText:@""];
                 [digit1 becomeFirstResponder];
                 return;
@@ -168,31 +167,20 @@
             [digit1 setText:@""];
             [digit1 becomeFirstResponder];
             step++;
-            
-            
-            //        return;
         }
-        
-        
         else if (step == 1) {
-            
-            
-            
-            
-            
             password1 = [digit1.text intValue];
             [passwordButton setTitle:LOC(@"key.button_save") forState:UIControlStateNormal];
             labelTitle.text = LOC(@"key.enter_new_password_again");
             [digit1 setText:@""];
             [digit1 becomeFirstResponder];
             step++;
-            //        return;
         }
         
         else if (step == 2) {
             if(password1 == [digit1.text intValue])
             {
-                [[[CustomAlertView alloc]initWithTitle:@"Success" message:@"Passwords Changed!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil]show];
+                [[[CustomAlertView alloc]initWithTitle:LOC(@"key.success") message:LOC(@"key.password_changed") delegate:nil cancelButtonTitle:LOC(@"key.button_ok") otherButtonTitles: nil]show];
                 
                 [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithInt:password1] forKey:@"password"];
                 [[NSUserDefaults standardUserDefaults]synchronize];
@@ -202,7 +190,7 @@
             
             else
             {
-                [[[CustomAlertView alloc]initWithTitle:@"Failed" message:@"Passwords Did not Matched!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil]show];
+                [[[CustomAlertView alloc]initWithTitle:LOC(@"key.failed") message:LOC(@"key.passwords_did_not_matched") delegate:nil cancelButtonTitle:LOC(@"key.button_ok") otherButtonTitles: nil]show];
                 
                 [digit1 setText:@""];
                 [digit1 becomeFirstResponder];
@@ -216,7 +204,7 @@
             password1 = [digit1.text intValue];
             
             if (password1 != [[[NSUserDefaults standardUserDefaults]objectForKey:@"password"] intValue]) {
-                [[[CustomAlertView alloc]initWithTitle:@"ERROR" message:@"Wrong Password!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil]show];
+                [[[CustomAlertView alloc]initWithTitle:LOC(@"key.error") message:LOC(@"key.wrong_password") delegate:nil cancelButtonTitle:LOC(@"key.button_ok") otherButtonTitles: nil]show];
                 [digit1 setText:@""];
                 [digit1 becomeFirstResponder];
                 return;

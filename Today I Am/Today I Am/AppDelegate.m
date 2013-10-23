@@ -52,55 +52,43 @@ void getMemoryDetails(void) {
         PasswordScreen* view = [[PasswordScreen alloc]initWithNibName:@"PasswordScreen" bundle:nil];
         
         view.mode = 3;
-        
-//        [self.navigationConteoller pushViewController:view animated:NO];
     }
+
+    NSMutableArray *emotions = [[NSMutableArray alloc] initWithObjects:
+                                LOC(@"key.Ecstatic"),
+                                LOC(@"key.Relaxed"),
+                                LOC(@"key.Bored"),
+                                LOC(@"key.Excited"),
+                                LOC(@"key.Crazy"),
+                                LOC(@"key.Grumpy"),
+                                LOC(@"key.Happy"),
+                                LOC(@"key.Silly"),
+                                LOC(@"key.Exhausted"),
+                                LOC(@"key.Lovestruck"),
+                                LOC(@"key.Shocked"),
+                                LOC(@"key.Guilty"),
+                                LOC(@"key.Inspired"),
+                                LOC(@"key.Confused"),
+                                LOC(@"key.Stressed"),
+                                LOC(@"key.Proud"),
+                                LOC(@"key.Restless"),
+                                LOC(@"key.Sick"),
+                                LOC(@"key.Confident"),
+                                LOC(@"key.Emotional"),
+                                LOC(@"key.Heartbroken"),
+                                LOC(@"key.Grateful"),
+                                LOC(@"key.Nervous"),
+                                LOC(@"key.Lonely"),
+                                LOC(@"key.Content"),
+                                LOC(@"key.Jealous"),
+                                LOC(@"key.Sad"),
+                                LOC(@"key.Hopeful"),
+                                LOC(@"key.Scared"),
+                                LOC(@"key.Angry"), nil];
     
-    if([prefs objectForKey:@"emotions"]==nil)
-    {
-        NSMutableArray *emotions = [[NSMutableArray alloc] initWithObjects:
-                                    @"Ecstatic",
-                                    @"Relaxed",
-                                    @"Bored",
-                                    @"Excited",
-                                    @"Crazy",
-                                    @"Grumpy",
-                                    @"Happy",
-                                    @"Silly",
-                                    @"Exhausted",
-                                    @"Lovestruck",
-                                    @"Shocked",
-                                    @"Guilty",
-                                    @"Inspired",
-                                    @"Confused",
-                                    @"Stressed",
-                                    @"Proud",
-                                    @"Restless",
-                                    @"Sick",
-                                    @"Confident",
-                                    @"Emotional",
-                                    @"Heartbroken",
-                                    @"Grateful",
-                                    @"Nervous",
-                                    @"Lonely",
-                                    @"Content",
-                                    @"Jealous",
-                                    @"Sad",
-                                    @"Hopeful",
-                                    @"Scared",
-                                    @"Angry", nil];
-        
-        [prefs setObject:emotions forKey:@"emotions"];
-        [prefs synchronize];
-    }
+    [prefs setObject:emotions forKey:@"emotions"];
+    [prefs synchronize];
     
-    else
-    {
-        NSLog(@"HI IH %@",[prefs objectForKey:@"emotions"]);
-    }
-    
-    
-//    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     if ([prefs objectForKey:@"password"]) {
         
         PasswordScreen* view = [[PasswordScreen alloc]initWithNibName:@"PasswordScreen" bundle:nil];
