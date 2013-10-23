@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  Today I Am
+
+  Created by Vasilii Kasnitski on 10/17/13.
+  Copyright (c) 2013 AAPBD-REDOAN. All rights reserved.
+*/
+
+"key.today_i_am" = "今天我很…";
+"key.diary" = "Diary";
+"key.happiness_history" = "Happiness History";
+"key.edit_your_emotions" = "Edit your emotions";
+"key.privacy_lock" = "Privacy Lock";
+"key.restore_or_update" = "Restore or Update";
+
+"key.this_month_i_am" = "This month I am...";
+"key.happiness_history" = "Happiness History";
+
+"key.this_week_i_have_been" = "This week I have been...";
+"key.this_month_i_have_been" = "This month I have been...";
+"key.this_year_i_have_been" = "This year I have been...";
+
+"key.privacy_lock" = "Privacy Lock";
+"key.edit_your_emotions" = "Edit your emotions";
+
+"key.enter_new_password" = "Enter new password";
+"key.enter_new_password_again" = "Enter new password again";
+"key.enter_current_password" = "Enter current password";
+
+"key.change_password" = "Change password";
+
+"key.button_next" = "Next";
+"key.button_save" = "Save";
+"key.button_yes" = "Yes";
+"key.button_no" = "No";
+"key.button_upload" = "Upload";
+"key.button_save" = "Save";
+"key.button_i_am_also" = "I am Also";
+"key.button_done" = "Done";
+"key.button_cancel" = "Cancel";
+
+"key.how_are_you" = "How %@ are you?";
+"key.why_are_you" = "Why are you %@?";
+
+"key.this_entry_has_not_been" = "This entry has not been saved or uploaded. Do you want to save or upload it?\n\n";
+"key.saved_to_diary" = "Saved to diary!";
+"key.you_already_have_records" = "You already have records for today!";
+"key.want_to_replace_them" = "Want to replace them?";
+
+"key.your_top_5_emotions" = "* Your top 5 emotions";

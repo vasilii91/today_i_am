@@ -1,0 +1,22 @@
+//
+// Prefix header for all source files of the 'Today I Am' target in the 'Today I Am' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Core/Macroses.h"
+    #import "FontManager.h"
+#endif
+
+#define UIAppDelegate   (AppDelegate *)[[UIApplication sharedApplication] delegate]
+
+#define DiaryPieIndex 1
+#define HappinessPieIndex 2
+#define TodayIamIndex 3
