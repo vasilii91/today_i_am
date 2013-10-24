@@ -16,7 +16,7 @@
 #import "Flurry.h"
 #import "FlurryAds.h"
 #import "MKStoreManager.h"
-
+#import "UserSettings.h"
 
 @implementation AppDelegate
 
@@ -42,6 +42,9 @@ void getMemoryDetails(void) {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [Flurry startSession:@"KVMJZVKCGMTC5WDV8XNQ"];
+    [self showAds];
+    
+//    [[MKStoreManager sharedManager] removeAllKeychainData];
     
     [MKStoreManager sharedManager];
     
@@ -113,6 +116,27 @@ void getMemoryDetails(void) {
     }
     
     return YES;
+}
+
+- (void)showAds
+{
+    double delayInSeconds = 1.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        if ([UserSettings sharedSingleton].isFreeVersion) {
+            static dispatch_once_t onceToken;
+            dispatch_once(&onceToken, ^{
+                if ([FlurryAds adReadyForSpace:@"Full Screen Mood Sweet"]) {
+                    [FlurryAds displayAdForSpace:@"Full Screen Mood Sweet" onView:self.window];
+                }
+                else {
+                    [FlurryAds fetchAdForSpace:@"Full Screen Mood Sweet" frame:self.window.frame size:FULLSCREEN];
+                }
+            });
+            
+            [FlurryAds fetchAndDisplayAdForSpace:@"Banner Mood Sweet" view:self.window size:BANNER_BOTTOM];
+        }
+    });
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

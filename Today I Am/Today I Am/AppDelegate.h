@@ -37,4 +37,6 @@
 @property(assign) int calibrationIndexTodayIam;
 @property(assign) int calibrationIndexHappinessPie;
 
+- (void)showAds;
+
 @end

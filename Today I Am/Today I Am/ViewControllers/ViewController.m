@@ -16,7 +16,8 @@
 #import "PasswordScreen.h"
 #import "UpdateRestoreViewController.h"
 #import "FlurryAds.h"
-
+#import "UserSettings.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 {
@@ -69,20 +70,6 @@
     }
 
     [UIView commitAnimations];
-    
-    if ([UserSettings sharedSingleton].isFreeVersion) {
-        static dispatch_once_t onceToken;
-        dispatch_once(&onceToken, ^{
-            if ([FlurryAds adReadyForSpace:@"Full Screen Mood Sweet"]) {
-                [FlurryAds displayAdForSpace:@"Full Screen Mood Sweet" onView:self.view];
-            }
-            else {
-                [FlurryAds fetchAdForSpace:@"Full Screen Mood Sweet" frame:self.view.frame size:FULLSCREEN];
-            }
-        });
-        
-        [FlurryAds fetchAndDisplayAdForSpace:@"Banner Mood Sweet" view:self.view size:BANNER_BOTTOM];
-    }
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -95,7 +82,7 @@
     }
     
     UIColor *color = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pie.png"]];
-    NSLog(@"COLOR TEXT : %@",[self stringFromColor:color]);    
+    NSLog(@"COLOR TEXT : %@",[self stringFromColor:color]);
 }
 
 - (void)viewDidUnload

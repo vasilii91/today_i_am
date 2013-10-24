@@ -6,86 +6,86 @@
   Copyright (c) 2013 AAPBD-REDOAN. All rights reserved.
 */
 
-"key.today_i_am" = "今天我很…";
-"key.diary" = "Diary";
-"key.happiness_history" = "Happiness History";
-"key.edit_your_emotions" = "Edit your emotions";
-"key.privacy_lock" = "Privacy Lock";
+"key.today_i_am" = "오늘 저는…";
+"key.diary" = "일기";
+"key.happiness_history" = "행복 기록";
+"key.edit_your_emotions" = "당신의 감정을 수정하세요";
+"key.privacy_lock" = "프라이버시 로크";
 "key.restore_or_update" = "Restore or Update";
 
 "key.this_month_i_am" = "This month I am...";
 
-"key.rename_to" = "Rename %@ to";
-"key.this_week_i_have_been" = "This week I have been...";
-"key.this_month_i_have_been" = "This month I have been...";
-"key.this_year_i_have_been" = "This year I have been...";
+"key.rename_to" = "로 %@ 이름바꾸기";
+"key.this_week_i_have_been" = "이번 주에 저는…";
+"key.this_month_i_have_been" = "이번 달에 저는…";
+"key.this_year_i_have_been" = "올해에 저는…";
 
-"key.enter_new_password" = "Enter new password";
-"key.enter_new_password_again" = "Enter new password again";
-"key.enter_current_password" = "Enter current password";
+"key.enter_new_password" = "새암호를 입력하세요";
+"key.enter_new_password_again" = "다시 새암호를 입력하세요";
+"key.enter_current_password" = "현재 암호를 입력하세요";
 
 "key.change_password" = "Change password";
 
-"key.button_next" = "Next";
-"key.button_save" = "Save";
-"key.button_yes" = "Yes";
-"key.button_no" = "No";
-"key.button_upload" = "Upload";
-"key.button_i_am_also" = "I am Also";
-"key.button_done" = "Done";
-"key.button_cancel" = "Cancel";
-"key.button_ok" = "OK";
+"key.button_next" = "다음";
+"key.button_save" = "저장";
+"key.button_yes" = "네";
+"key.button_no" = "아니요";
+"key.button_upload" = "업로드";
+"key.button_i_am_also" = "저도 역시";
+"key.button_done" = "완료";
+"key.button_cancel" = "취소";
+"key.button_ok" = "오케이";
 "key.button_update" = "Remove Ads";
 "key.button_restore" = "Restore";
 
-"key.how_are_you" = "How %@ are you?";
-"key.why_are_you" = "Why are you %@?";
+"key.how_are_you" = "어느 %@ 정도로 그런가요?";
+"key.why_are_you" = "왜 그런가요 %@?";
 
-"key.this_entry_has_not_been" = "This entry has not been saved or uploaded. Do you want to save or upload it?\n\n";
-"key.saved_to_diary" = "Saved to diary!";
+"key.this_entry_has_not_been" = "이 항목은 저장 및 업로드가 되지 않았습니다. 이것을 저장하거나 업로드하길 원하세요?\n\n";
+"key.saved_to_diary" = "일기에 저장되었습니다";
 "key.you_already_have_records" = "You already have records for today!";
 "key.want_to_replace_them" = "Want to replace them?";
 
 "key.your_top_5_emotions" = "* Your top 5 emotions";
 
-"key.privacy_lock_activated" = "Privacy Lock Activated! Please don't forget your password.";
-"key.failed" = "Failed";
-"key.passwords_did_not_matched" = "Passwords Did not Matched!";
+"key.privacy_lock_activated" = "프라이버시 로크 활성화됨. 암호를 잊지 마십시오!";
+"key.failed" = "실패";
+"key.passwords_did_not_matched" = "암호가 일치하지 않습니다";
 "key.error" = "ERROR";
 "key.wrong_password" = "Wrong Password!";
 "key.success" = "Success";
 "key.password_changed" = "Passwords Changed!";
-"key.email" = "Email";
-"key.save_to_camera" = "Save to Camera Roll";
+"key.email" = "이메일";
+"key.save_to_camera" = "사진첩에 저장하기";
 "key.do_you_want" = "Do you want to set an entry for this date?";
 
-"key.Ecstatic" = "Ecstatic";
-"key.Relaxed" = "Relaxed";
-"key.Bored" = "Bored";
-"key.Excited" = "Excited";
-"key.Crazy" = "Crazy";
-"key.Grumpy" = "Grumpy";
-"key.Happy" = "Happy";
-"key.Silly" = "Silly";
-"key.Exhausted" = "Exhausted";
-"key.Lovestruck" = "Lovestruck";
-"key.Shocked" = "Shocked";
-"key.Guilty" = "Guilty";
-"key.Inspired" = "Inspired";
-"key.Confused" = "Confused";
-"key.Stressed" = "Stressed";
-"key.Proud" = "Proud";
-"key.Restless" = "Restless";
-"key.Sick" = "Sick";
-"key.Confident" = "Confident";
-"key.Emotional" = "Emotional";
-"key.Heartbroken" = "Heartbroken";
-"key.Grateful" = "Grateful";
-"key.Nervous" = "Nervous";
-"key.Lonely" = "Lonely";
-"key.Content" = "Content";
-"key.Jealous" = "Jealous";
-"key.Sad" = "Sad";
-"key.Hopeful" = "Hopeful";
-"key.Scared" = "Scared";
-"key.Angry" = "Angry";
+"key.Ecstatic" = "황홀합니다";
+"key.Relaxed" = "편안합니다";
+"key.Bored" = "심심합니다";
+"key.Excited" = "너무 기쁩니다";
+"key.Crazy" = "미쳤습니다";
+"key.Grumpy" = "언짢습니다";
+"key.Happy" = "행복합니다";
+"key.Silly" = "어리석습니다";
+"key.Exhausted" = "지쳤습니다";
+"key.Lovestruck" = "상사병을 알고 있습니다";
+"key.Shocked" = "충격을 받았습니다";
+"key.Guilty" = "죄책감을 느낌니다";
+"key.Inspired" = "용기백배입니다";
+"key.Confused" = "혼돈스럽습니다";
+"key.Stressed" = "스트레스가 많습니다";
+"key.Proud" = "자랑스럽습니다";
+"key.Restless" = "불안합니다";
+"key.Sick" = "아픔니다";
+"key.Confident" = "자신감이 넘칩니다";
+"key.Emotional" = "감정적입니다";
+"key.Heartbroken" = "가슴이 아픔니다";
+"key.Grateful" = "감사함을 느낌니다";
+"key.Nervous" = "초초합니다";
+"key.Lonely" = "외롭습니다";
+"key.Content" = "만족스럽습니다";
+"key.Jealous" = "질투가 납니다";
+"key.Sad" = "슬픕니다";
+"key.Hopeful" = "희망찹니다";
+"key.Scared" = "무섭습니다";
+"key.Angry" = "화가 납니다";

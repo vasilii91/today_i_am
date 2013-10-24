@@ -67,10 +67,10 @@
     int index = 0;
     float yOffset;
     if ([UIScreen mainScreen].bounds.size.height>480) {
-        yOffset = 45;
+        yOffset = 40;
     }
     else{
-        yOffset = 35;
+        yOffset = 33;
     }
     
     for (int i=0; i<10; i++) {

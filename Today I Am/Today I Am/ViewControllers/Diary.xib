@@ -157,7 +157,7 @@
 					<object class="IBUIView" id="446908353">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 72}, {320, 313}}</string>
+						<string key="NSFrame">{{0, 52}, {320, 313}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1014609757"/>
@@ -168,7 +168,7 @@
 					<object class="IBUIButton" id="1014609757">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{27, 405}, {266, 26}}</string>
+						<string key="NSFrame">{{27, 377}, {266, 26}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -380,6 +380,20 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">Diary</string>
 					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="back:">id</string>
+						<string key="menu:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="back:">
+							<string key="name">back:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="menu:">
+							<string key="name">menu:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="buttonThisMonth">UIButton</string>
 						<string key="calendarContainer">UIView</string>

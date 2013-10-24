@@ -262,10 +262,10 @@
     int index = 0;
     float yOffset;
     if ([UIScreen mainScreen].bounds.size.height>480) {
-        yOffset = 45;
+        yOffset = 40;
     }
     else{
-        yOffset = 35;
+        yOffset = 33;
     }
     for (int i=0; i<10; i++) {
         for (int j=1; j<=3; j++) {
@@ -554,7 +554,7 @@
     backLevel = 2;
     backButton.enabled = YES;
     [UIView beginAnimations:@"emoDetailDoneUP" context:nil];
-    doneEmoView.frame = CGRectMake(0, 94, doneEmoView.frame.size.width, doneEmoView.frame.size.height);
+    doneEmoView.frame = CGRectMake(0, 84, doneEmoView.frame.size.width, doneEmoView.frame.size.height);
     [UIView setAnimationDuration:15.0];
     [UIView commitAnimations];
     

@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1552</int>
-		<string key="IBDocument.SystemVersion">13A603</string>
+		<string key="IBDocument.SystemVersion">12E55</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1265</string>
-		<string key="IBDocument.HIToolboxVersion">695.00</string>
+		<string key="IBDocument.AppKitVersion">1187.39</string>
+		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">2083</string>
@@ -379,7 +379,7 @@
 									<object class="IBUIImageView" id="670713483">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">256</int>
-										<string key="NSFrame">{{0, -23}, {320, 179}}</string>
+										<string key="NSFrame">{{0, -52}, {320, 179}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="77114345"/>
@@ -396,7 +396,7 @@
 									<object class="IBUIButton" id="77114345">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrameSize">{320, 400}</string>
+										<string key="NSFrame">{{0, -29}, {320, 400}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="265465600"/>
@@ -417,7 +417,7 @@
 									<object class="IBUIButton" id="741535217">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{46, 262}, {109, 37}}</string>
+										<string key="NSFrame">{{46, 233}, {109, 37}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="167766196"/>
@@ -447,7 +447,7 @@
 									<object class="IBUIButton" id="167766196">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{166, 262}, {109, 37}}</string>
+										<string key="NSFrame">{{166, 233}, {109, 37}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="581949811"/>
@@ -468,7 +468,7 @@
 									<object class="IBUISlider" id="265465600">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{28, 42}, {264, 23}}</string>
+										<string key="NSFrame">{{28, 13}, {264, 23}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="344150787"/>
@@ -483,7 +483,7 @@
 									<object class="IBUILabel" id="344150787">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{31, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{31, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="1497672"/>
@@ -513,7 +513,7 @@
 									<object class="IBUILabel" id="1497672">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{54, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{54, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="503487148"/>
@@ -534,7 +534,7 @@
 									<object class="IBUILabel" id="503487148">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{78, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{78, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="1019827279"/>
@@ -555,7 +555,7 @@
 									<object class="IBUILabel" id="1019827279">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{102, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{102, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="543616186"/>
@@ -576,7 +576,7 @@
 									<object class="IBUILabel" id="543616186">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{125, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{125, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="219654728"/>
@@ -597,7 +597,7 @@
 									<object class="IBUILabel" id="219654728">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{150, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{150, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="564738190"/>
@@ -618,7 +618,7 @@
 									<object class="IBUILabel" id="564738190">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{175, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{175, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="802409795"/>
@@ -639,7 +639,7 @@
 									<object class="IBUILabel" id="802409795">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{200, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{200, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="218165623"/>
@@ -660,7 +660,7 @@
 									<object class="IBUILabel" id="218165623">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{224, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{224, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="620694703"/>
@@ -681,7 +681,7 @@
 									<object class="IBUILabel" id="620694703">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{247, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{247, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="2953040"/>
@@ -702,7 +702,7 @@
 									<object class="IBUILabel" id="2953040">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{271, 67}, {20, 10}}</string>
+										<string key="NSFrame">{{271, 38}, {20, 10}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="690753708"/>
@@ -723,7 +723,7 @@
 									<object class="IBUITextView" id="690753708">
 										<reference key="NSNextResponder" ref="273637292"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{20, 100}, {280, 139}}</string>
+										<string key="NSFrame">{{20, 71}, {280, 139}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="741535217"/>
@@ -751,7 +751,7 @@
 										</object>
 									</object>
 								</array>
-								<string key="NSFrame">{{0, 48}, {320, 400}}</string>
+								<string key="NSFrame">{{0, 51}, {320, 415}}</string>
 								<reference key="NSSuperview" ref="396620742"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="670713483"/>
@@ -1083,11 +1083,11 @@
 						<reference key="object" ref="396620742"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="426924371"/>
-							<reference ref="273637292"/>
 							<reference ref="32763853"/>
 							<reference ref="970787530"/>
 							<reference ref="581949811"/>
 							<reference ref="216090021"/>
+							<reference ref="273637292"/>
 						</array>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -1344,67 +1344,22 @@
 					<string key="className">TodayIAm</string>
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="IamAlso:">id</string>
-						<string key="back:">id</string>
-						<string key="doneAddingEmo:">id</string>
 						<string key="emoSelected:">id</string>
-						<string key="hideDetail:">id</string>
-						<string key="hideDoneView:">id</string>
 						<string key="hideTextview:">id</string>
-						<string key="menu:">id</string>
-						<string key="saveToDiary:">id</string>
 						<string key="show:">id</string>
-						<string key="uploadButtonClicked:">id</string>
-						<string key="valueChanged:">UISlider</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="IamAlso:">
-							<string key="name">IamAlso:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="back:">
-							<string key="name">back:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="doneAddingEmo:">
-							<string key="name">doneAddingEmo:</string>
-							<string key="candidateClassName">id</string>
-						</object>
 						<object class="IBActionInfo" key="emoSelected:">
 							<string key="name">emoSelected:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="hideDetail:">
-							<string key="name">hideDetail:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="hideDoneView:">
-							<string key="name">hideDoneView:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="hideTextview:">
 							<string key="name">hideTextview:</string>
 							<string key="candidateClassName">id</string>
 						</object>
-						<object class="IBActionInfo" key="menu:">
-							<string key="name">menu:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="saveToDiary:">
-							<string key="name">saveToDiary:</string>
-							<string key="candidateClassName">id</string>
-						</object>
 						<object class="IBActionInfo" key="show:">
 							<string key="name">show:</string>
 							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="uploadButtonClicked:">
-							<string key="name">uploadButtonClicked:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="valueChanged:">
-							<string key="name">valueChanged:</string>
-							<string key="candidateClassName">UISlider</string>
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
