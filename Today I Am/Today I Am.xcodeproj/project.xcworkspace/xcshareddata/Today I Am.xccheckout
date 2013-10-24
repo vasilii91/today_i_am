@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86EAC3BD-CAD4-4ADD-844C-E9A3C4ECB9BE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Today I Am</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>19CC3448-1502-4B24-9E27-5E5AA1849632</key>
+		<string>https://github.com/vasilii91/today_i_am</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Today I Am/Today I Am.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>19CC3448-1502-4B24-9E27-5E5AA1849632</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vasilii91/today_i_am</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>19CC3448-1502-4B24-9E27-5E5AA1849632</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>19CC3448-1502-4B24-9E27-5E5AA1849632</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TodayIAm</string>
+		</dict>
+	</array>
+</dict>
+</plist>

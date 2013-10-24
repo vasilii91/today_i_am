@@ -11,5 +11,6 @@
 @interface ViewController : UIViewController
 
 - (IBAction)navigateToScreens:(id)sender;
+- (IBAction)restoreOrUpdateAction:(id)sender;
 
 @end

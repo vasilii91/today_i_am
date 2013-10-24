@@ -45,6 +45,7 @@
 
     date.font = [UIFont fontWithName:[FontManager currentFontName] size:15];
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:[[NSLocale preferredLanguages] objectAtIndex:0]]];
     [formatter setDateStyle:NSDateFormatterLongStyle];
     date.text = [NSString stringWithFormat:@"%@  ",[formatter stringFromDate:self.dateofEntry]];
     

@@ -12,6 +12,12 @@
 
 #import "TodayIAm.h"
 #import "PasswordScreen.h"
+
+#import "Flurry.h"
+#import "FlurryAds.h"
+#import "MKStoreManager.h"
+
+
 @implementation AppDelegate
 
 @synthesize calibrationIndexDiaryPie,calibrationIndexHappinessPie,calibrationIndexTodayIam;
@@ -35,6 +41,14 @@ void getMemoryDetails(void) {
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Flurry startSession:@"KVMJZVKCGMTC5WDV8XNQ"];
+    
+    [MKStoreManager sharedManager];
+    
+    // сначала это будет возвращать NO - покупки не было. Но как только пользователь совершит покупку, сохраниться в keychain и
+    // начнёт возвращать YES - покупка была совершена
+    [UserSettings sharedSingleton].isFreeVersion = ![MKStoreManager isFeaturePurchased:IN_APP_PURCHASE_ID_REMOVE_ADS];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
@@ -97,8 +111,6 @@ void getMemoryDetails(void) {
         
         [self.navigationConteoller pushViewController:view animated:NO];
     }
-    
-//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=General"]];
     
     return YES;
 }

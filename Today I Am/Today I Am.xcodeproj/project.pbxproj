@@ -37,6 +37,23 @@
 		92ED1FA61709B86400924904 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED1FA51709B86400924904 /* Event.m */; };
 		92F6E9AF171C19E200EFD5CE /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F6E9AE171C19E200EFD5CE /* Twitter.framework */; };
 		92F6E9B2171C1CEA00EFD5CE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F6E9B1171C1CEA00EFD5CE /* MessageUI.framework */; };
+		BE2C57A01819021B00D8201D /* libFlurry_4.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2C579B1819021B00D8201D /* libFlurry_4.3.0.a */; };
+		BE2C57A11819021B00D8201D /* libFlurryAds_4.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2C579F1819021B00D8201D /* libFlurryAds_4.3.0.a */; };
+		BE2C57A31819037500D8201D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2C57A21819037500D8201D /* MediaPlayer.framework */; };
+		BE4E02E118191AAD000AA2E1 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E02CD18191AAD000AA2E1 /* NSData+MKBase64.m */; };
+		BE4E02E218191AAD000AA2E1 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E02CF18191AAD000AA2E1 /* SFHFKeychainUtils.m */; };
+		BE4E02E318191AAD000AA2E1 /* MKSKProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E02D118191AAD000AA2E1 /* MKSKProduct.m */; };
+		BE4E02E418191AAD000AA2E1 /* MKSKSubscriptionProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E02D318191AAD000AA2E1 /* MKSKSubscriptionProduct.m */; };
+		BE4E02E518191AAD000AA2E1 /* MKStoreKitConfigs.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE4E02D518191AAD000AA2E1 /* MKStoreKitConfigs.plist */; };
+		BE4E02E618191AAD000AA2E1 /* MKStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E02D718191AAD000AA2E1 /* MKStoreManager.m */; };
+		BE4E02E718191AAD000AA2E1 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = BE4E02D818191AAD000AA2E1 /* README.mdown */; };
+		BE4E02E818191AAD000AA2E1 /* AddDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = BE4E02DA18191AAD000AA2E1 /* AddDevice.html */; };
+		BE4E02E918191AAD000AA2E1 /* DBSetup.sql in Resources */ = {isa = PBXBuildFile; fileRef = BE4E02DB18191AAD000AA2E1 /* DBSetup.sql */; };
+		BE4E02EA18191AAD000AA2E1 /* featureCheck.php in Resources */ = {isa = PBXBuildFile; fileRef = BE4E02DC18191AAD000AA2E1 /* featureCheck.php */; };
+		BE4E02EB18191AAD000AA2E1 /* requestAccess.php in Resources */ = {isa = PBXBuildFile; fileRef = BE4E02DD18191AAD000AA2E1 /* requestAccess.php */; };
+		BE4E02EC18191AAD000AA2E1 /* verifyProduct.php in Resources */ = {isa = PBXBuildFile; fileRef = BE4E02DE18191AAD000AA2E1 /* verifyProduct.php */; };
+		BE4E02ED18191AAD000AA2E1 /* VerificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E02E018191AAD000AA2E1 /* VerificationController.m */; };
+		BE4E02EF18191B4F000AA2E1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4E02EE18191B4F000AA2E1 /* StoreKit.framework */; };
 		BE68CAFE181540C9003E8705 /* password_box.png in Resources */ = {isa = PBXBuildFile; fileRef = BE68CAF4181540C9003E8705 /* password_box.png */; };
 		BE68CAFF181540C9003E8705 /* password_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE68CAF5181540C9003E8705 /* password_box@2x.png */; };
 		BE68CB00181540C9003E8705 /* dashed_line.png in Resources */ = {isa = PBXBuildFile; fileRef = BE68CAF6181540C9003E8705 /* dashed_line.png */; };
@@ -219,6 +236,10 @@
 		BEC11DAC18112792001D377E /* home_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC11DA818112792001D377E /* home_button@2x.png */; };
 		BEC11DAF18112844001D377E /* nav_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC11DAD18112843001D377E /* nav_bar.png */; };
 		BEC11DB018112844001D377E /* nav_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC11DAE18112843001D377E /* nav_bar@2x.png */; };
+		BEDBB91818192A3400A26956 /* APJapanesefont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEDBB91718192A3400A26956 /* APJapanesefont.ttf */; };
+		BEDBB91C1819342800A26956 /* UpdateRestoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB91A1819342800A26956 /* UpdateRestoreViewController.m */; };
+		BEDBB91D1819342800A26956 /* UpdateRestoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDBB91B1819342800A26956 /* UpdateRestoreViewController.xib */; };
+		BEDBB926181938F600A26956 /* UserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB925181938F600A26956 /* UserSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -259,6 +280,34 @@
 		92ED1FA51709B86400924904 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		92F6E9AE171C19E200EFD5CE /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		92F6E9B1171C1CEA00EFD5CE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BE2C57971818F9B400D8201D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BE2C579A1819021B00D8201D /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		BE2C579B1819021B00D8201D /* libFlurry_4.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.0.a; sourceTree = "<group>"; };
+		BE2C579D1819021B00D8201D /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		BE2C579E1819021B00D8201D /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		BE2C579F1819021B00D8201D /* libFlurryAds_4.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_4.3.0.a; sourceTree = "<group>"; };
+		BE2C57A21819037500D8201D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BE4E02CC18191AAD000AA2E1 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		BE4E02CD18191AAD000AA2E1 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		BE4E02CE18191AAD000AA2E1 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		BE4E02CF18191AAD000AA2E1 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		BE4E02D018191AAD000AA2E1 /* MKSKProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKProduct.h; sourceTree = "<group>"; };
+		BE4E02D118191AAD000AA2E1 /* MKSKProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKProduct.m; sourceTree = "<group>"; };
+		BE4E02D218191AAD000AA2E1 /* MKSKSubscriptionProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKSubscriptionProduct.h; sourceTree = "<group>"; };
+		BE4E02D318191AAD000AA2E1 /* MKSKSubscriptionProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKSubscriptionProduct.m; sourceTree = "<group>"; };
+		BE4E02D418191AAD000AA2E1 /* MKStoreKitConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreKitConfigs.h; sourceTree = "<group>"; };
+		BE4E02D518191AAD000AA2E1 /* MKStoreKitConfigs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MKStoreKitConfigs.plist; sourceTree = "<group>"; };
+		BE4E02D618191AAD000AA2E1 /* MKStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreManager.h; sourceTree = "<group>"; };
+		BE4E02D718191AAD000AA2E1 /* MKStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreManager.m; sourceTree = "<group>"; };
+		BE4E02D818191AAD000AA2E1 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		BE4E02DA18191AAD000AA2E1 /* AddDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AddDevice.html; sourceTree = "<group>"; };
+		BE4E02DB18191AAD000AA2E1 /* DBSetup.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DBSetup.sql; sourceTree = "<group>"; };
+		BE4E02DC18191AAD000AA2E1 /* featureCheck.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = featureCheck.php; sourceTree = "<group>"; };
+		BE4E02DD18191AAD000AA2E1 /* requestAccess.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = requestAccess.php; sourceTree = "<group>"; };
+		BE4E02DE18191AAD000AA2E1 /* verifyProduct.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = verifyProduct.php; sourceTree = "<group>"; };
+		BE4E02DF18191AAD000AA2E1 /* VerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationController.h; sourceTree = "<group>"; };
+		BE4E02E018191AAD000AA2E1 /* VerificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationController.m; sourceTree = "<group>"; };
+		BE4E02EE18191B4F000AA2E1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		BE68CAF4181540C9003E8705 /* password_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_box.png; sourceTree = "<group>"; };
 		BE68CAF5181540C9003E8705 /* password_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_box@2x.png"; sourceTree = "<group>"; };
 		BE68CAF6181540C9003E8705 /* dashed_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashed_line.png; sourceTree = "<group>"; };
@@ -462,6 +511,13 @@
 		BEC11DA818112792001D377E /* home_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_button@2x.png"; sourceTree = "<group>"; };
 		BEC11DAD18112843001D377E /* nav_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bar.png; sourceTree = "<group>"; };
 		BEC11DAE18112843001D377E /* nav_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bar@2x.png"; sourceTree = "<group>"; };
+		BEDBB91718192A3400A26956 /* APJapanesefont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = APJapanesefont.ttf; sourceTree = "<group>"; };
+		BEDBB9191819342800A26956 /* UpdateRestoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateRestoreViewController.h; sourceTree = "<group>"; };
+		BEDBB91A1819342800A26956 /* UpdateRestoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateRestoreViewController.m; sourceTree = "<group>"; };
+		BEDBB91B1819342800A26956 /* UpdateRestoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateRestoreViewController.xib; sourceTree = "<group>"; };
+		BEDBB9221819382400A26956 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BEDBB924181938F600A26956 /* UserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettings.h; sourceTree = "<group>"; };
+		BEDBB925181938F600A26956 /* UserSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -469,11 +525,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4E02EF18191B4F000AA2E1 /* StoreKit.framework in Frameworks */,
+				92487FFA1711FE8B003024E0 /* AdSupport.framework in Frameworks */,
+				BE2C57A31819037500D8201D /* MediaPlayer.framework in Frameworks */,
 				920D10B017EDE380006F8B61 /* AssetsLibrary.framework in Frameworks */,
 				92A838DE17495861002604AB /* CoreText.framework in Frameworks */,
 				92F6E9B2171C1CEA00EFD5CE /* MessageUI.framework in Frameworks */,
 				92F6E9AF171C19E200EFD5CE /* Twitter.framework in Frameworks */,
-				92487FFA1711FE8B003024E0 /* AdSupport.framework in Frameworks */,
 				92487FF81711FE74003024E0 /* Security.framework in Frameworks */,
 				92487FF71711FE54003024E0 /* libz.1.1.3.dylib in Frameworks */,
 				92487FF11711FDF7003024E0 /* Social.framework in Frameworks */,
@@ -488,6 +546,8 @@
 				92C4327C16EB75BE00F5FCCE /* Foundation.framework in Frameworks */,
 				92C4327E16EB75BE00F5FCCE /* CoreGraphics.framework in Frameworks */,
 				92CD9D1A173BBB9700C9AB83 /* FacebookSDK.framework in Frameworks */,
+				BE2C57A01819021B00D8201D /* libFlurry_4.3.0.a in Frameworks */,
+				BE2C57A11819021B00D8201D /* libFlurryAds_4.3.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +577,8 @@
 		92C4327816EB75BE00F5FCCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE4E02EE18191B4F000AA2E1 /* StoreKit.framework */,
+				BE2C57A21819037500D8201D /* MediaPlayer.framework */,
 				920D10AF17EDE380006F8B61 /* AssetsLibrary.framework */,
 				92A838DD17495861002604AB /* CoreText.framework */,
 				92CD9D1C173BBBAD00C9AB83 /* FacebookSDKResources.bundle */,
@@ -572,6 +634,77 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE2C57981819021B00D8201D /* Flurry-iOS-4.3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C57991819021B00D8201D /* Flurry */,
+				BE2C579C1819021B00D8201D /* FlurryAds */,
+			);
+			path = "Flurry-iOS-4.3.0";
+			sourceTree = "<group>";
+		};
+		BE2C57991819021B00D8201D /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C579A1819021B00D8201D /* Flurry.h */,
+				BE2C579B1819021B00D8201D /* libFlurry_4.3.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		BE2C579C1819021B00D8201D /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C579D1819021B00D8201D /* FlurryAdDelegate.h */,
+				BE2C579E1819021B00D8201D /* FlurryAds.h */,
+				BE2C579F1819021B00D8201D /* libFlurryAds_4.3.0.a */,
+			);
+			path = FlurryAds;
+			sourceTree = "<group>";
+		};
+		BE4E02CA18191AAD000AA2E1 /* MKStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E02CB18191AAD000AA2E1 /* Externals */,
+				BE4E02D018191AAD000AA2E1 /* MKSKProduct.h */,
+				BE4E02D118191AAD000AA2E1 /* MKSKProduct.m */,
+				BE4E02D218191AAD000AA2E1 /* MKSKSubscriptionProduct.h */,
+				BE4E02D318191AAD000AA2E1 /* MKSKSubscriptionProduct.m */,
+				BE4E02D418191AAD000AA2E1 /* MKStoreKitConfigs.h */,
+				BE4E02D518191AAD000AA2E1 /* MKStoreKitConfigs.plist */,
+				BE4E02D618191AAD000AA2E1 /* MKStoreManager.h */,
+				BE4E02D718191AAD000AA2E1 /* MKStoreManager.m */,
+				BE4E02D818191AAD000AA2E1 /* README.mdown */,
+				BE4E02D918191AAD000AA2E1 /* Server Code */,
+				BE4E02DF18191AAD000AA2E1 /* VerificationController.h */,
+				BE4E02E018191AAD000AA2E1 /* VerificationController.m */,
+			);
+			path = MKStoreKit;
+			sourceTree = "<group>";
+		};
+		BE4E02CB18191AAD000AA2E1 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E02CC18191AAD000AA2E1 /* NSData+MKBase64.h */,
+				BE4E02CD18191AAD000AA2E1 /* NSData+MKBase64.m */,
+				BE4E02CE18191AAD000AA2E1 /* SFHFKeychainUtils.h */,
+				BE4E02CF18191AAD000AA2E1 /* SFHFKeychainUtils.m */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		BE4E02D918191AAD000AA2E1 /* Server Code */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E02DA18191AAD000AA2E1 /* AddDevice.html */,
+				BE4E02DB18191AAD000AA2E1 /* DBSetup.sql */,
+				BE4E02DC18191AAD000AA2E1 /* featureCheck.php */,
+				BE4E02DD18191AAD000AA2E1 /* requestAccess.php */,
+				BE4E02DE18191AAD000AA2E1 /* verifyProduct.php */,
+			);
+			path = "Server Code";
+			sourceTree = "<group>";
+		};
 		BEC11AE218110D6B001D377E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -606,6 +739,9 @@
 				BEC11AFE18110D6B001D377E /* UploadView.h */,
 				BEC11AFF18110D6B001D377E /* UploadView.m */,
 				BEC11B0018110D6B001D377E /* UploadView.xib */,
+				BEDBB9191819342800A26956 /* UpdateRestoreViewController.h */,
+				BEDBB91A1819342800A26956 /* UpdateRestoreViewController.m */,
+				BEDBB91B1819342800A26956 /* UpdateRestoreViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -613,6 +749,8 @@
 		BEC11C4918110E1E001D377E /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BE4E02CA18191AAD000AA2E1 /* MKStoreKit */,
+				BE2C57981819021B00D8201D /* Flurry-iOS-4.3.0 */,
 				BEC11C4A18110E1E001D377E /* Custom AlertView */,
 				BEC11C4D18110E1E001D377E /* Vurig Calendar */,
 				BEC11C6518110E1E001D377E /* XYPieChart */,
@@ -670,8 +808,10 @@
 		BEC11C7818110FC2001D377E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BEDBB923181938F600A26956 /* UserSettings */,
 				BEC11DA118111477001D377E /* FontManager */,
 				BEC11C7918110FC2001D377E /* Macroses.h */,
+				BEDBB9221819382400A26956 /* Constants.h */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -688,6 +828,7 @@
 		BEC11C7B18111384001D377E /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				BEDBB91718192A3400A26956 /* APJapanesefont.ttf */,
 				BE68CB5918166489003E8705 /* tahoma.ttf */,
 				BEC11C7C18111384001D377E /* batang.ttf */,
 				BEC11C7D18111384001D377E /* fangsong.ttf */,
@@ -922,6 +1063,15 @@
 			name = FontManager;
 			sourceTree = "<group>";
 		};
+		BEDBB923181938F600A26956 /* UserSettings */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBB924181938F600A26956 /* UserSettings.h */,
+				BEDBB925181938F600A26956 /* UserSettings.m */,
+			);
+			path = UserSettings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -959,6 +1109,7 @@
 				en,
 				ko,
 				ja,
+				"zh-Hant",
 			);
 			mainGroup = 92C4326A16EB75BE00F5FCCE;
 			productRefGroup = 92C4327616EB75BE00F5FCCE /* Products */;
@@ -1145,6 +1296,15 @@
 				BE68CB5618165234003E8705 /* edit_emotions_box@2x.png in Resources */,
 				BE68CB5818166178003E8705 /* calendar_background.png in Resources */,
 				BE68CB5A18166489003E8705 /* tahoma.ttf in Resources */,
+				BE4E02E518191AAD000AA2E1 /* MKStoreKitConfigs.plist in Resources */,
+				BE4E02E718191AAD000AA2E1 /* README.mdown in Resources */,
+				BE4E02E818191AAD000AA2E1 /* AddDevice.html in Resources */,
+				BE4E02E918191AAD000AA2E1 /* DBSetup.sql in Resources */,
+				BE4E02EA18191AAD000AA2E1 /* featureCheck.php in Resources */,
+				BE4E02EB18191AAD000AA2E1 /* requestAccess.php in Resources */,
+				BE4E02EC18191AAD000AA2E1 /* verifyProduct.php in Resources */,
+				BEDBB91818192A3400A26956 /* APJapanesefont.ttf in Resources */,
+				BEDBB91D1819342800A26956 /* UpdateRestoreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1178,6 +1338,14 @@
 				BEC11C7518110E1E001D377E /* VRGViewController.m in Sources */,
 				BEC11C7718110E1E001D377E /* XYPieChart.m in Sources */,
 				BEC11DA418111491001D377E /* FontManager.m in Sources */,
+				BE4E02E118191AAD000AA2E1 /* NSData+MKBase64.m in Sources */,
+				BE4E02E218191AAD000AA2E1 /* SFHFKeychainUtils.m in Sources */,
+				BE4E02E318191AAD000AA2E1 /* MKSKProduct.m in Sources */,
+				BE4E02E418191AAD000AA2E1 /* MKSKSubscriptionProduct.m in Sources */,
+				BE4E02E618191AAD000AA2E1 /* MKStoreManager.m in Sources */,
+				BE4E02ED18191AAD000AA2E1 /* VerificationController.m in Sources */,
+				BEDBB91C1819342800A26956 /* UpdateRestoreViewController.m in Sources */,
+				BEDBB926181938F600A26956 /* UserSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1198,6 +1366,7 @@
 				BEC119CE180FC68D001D377E /* en */,
 				1071881E181864A0004B8D1A /* ja */,
 				1071881F181864AB004B8D1A /* ko */,
+				BE2C57971818F9B400D8201D /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1230,8 +1399,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Charles Prendergast (5F29322CNN)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1247,7 +1415,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1261,8 +1428,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Charles Prendergast (5F29322CNN)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1271,7 +1437,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1281,8 +1446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Today I Am\"",
@@ -1292,9 +1456,13 @@
 				GCC_PREFIX_HEADER = "Today I Am/Today I Am-Prefix.pch";
 				INFOPLIST_FILE = "Today I Am/Today I Am-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Today I Am/Libs/Flurry-iOS-4.3.0/Flurry\"",
+					"\"$(SRCROOT)/Today I Am/Libs/Flurry-iOS-4.3.0/FlurryAds\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1304,8 +1472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Today I Am\"",
@@ -1315,9 +1482,13 @@
 				GCC_PREFIX_HEADER = "Today I Am/Today I Am-Prefix.pch";
 				INFOPLIST_FILE = "Today I Am/Today I Am-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Today I Am/Libs/Flurry-iOS-4.3.0/Flurry\"",
+					"\"$(SRCROOT)/Today I Am/Libs/Flurry-iOS-4.3.0/FlurryAds\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

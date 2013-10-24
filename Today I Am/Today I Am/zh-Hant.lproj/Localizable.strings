@@ -1,0 +1,91 @@
+/* 
+  Localizable.strings
+  Today I Am
+
+  Created by Vasilii Kasnitski on 10/17/13.
+  Copyright (c) 2013 AAPBD-REDOAN. All rights reserved.
+*/
+
+"key.today_i_am" = "今天我很…";
+"key.diary" = "日记";
+"key.happiness_history" = "幸福历史";
+"key.edit_your_emotions" = "编辑您的情绪";
+"key.privacy_lock" = "隐私锁";
+"key.restore_or_update" = "提升";
+
+"key.this_month_i_am" = "This month I am...";
+
+"key.rename_to" = "将%@重新命名为";
+"key.this_week_i_have_been" = "这礼拜我都很…";
+"key.this_month_i_have_been" = "这个月我都很…";
+"key.this_year_i_have_been" = "这一年我都很…";
+
+"key.enter_new_password" = "输入新密码";
+"key.enter_new_password_again" = "再输入一次新密码";
+"key.enter_current_password" = "输入目前密码";
+
+"key.change_password" = "更改密码";
+
+"key.button_next" = "下一步";
+"key.button_save" = "存档";
+"key.button_yes" = "是";
+"key.button_no" = "否";
+"key.button_upload" = "更新";
+"key.button_i_am_also" = "我也很";
+"key.button_done" = "已完成";
+"key.button_cancel" = "取消";
+"key.button_ok" = "好了";
+"key.button_update" = "Remove Ads";
+"key.button_restore" = "Restore";
+
+"key.how_are_you" = "您多么%@呢?";
+"key.why_are_you" = "为什么您很%@呢?";
+
+"key.this_entry_has_not_been" = "这篇记事尚未存档或更新。您要先存档或更新吗？\n\n";
+"key.saved_to_diary" = "存到日记";
+"key.you_already_have_records" = "You already have records for today!";
+"key.want_to_replace_them" = "Want to replace them?";
+
+"key.your_top_5_emotions" = "* Your top 5 emotions";
+
+"key.privacy_lock_activated" = "已启动密码锁，请别忘记您的密码";
+"key.failed" = "错误";
+"key.passwords_did_not_matched" = "密码不符合";
+"key.error" = "ERROR";
+"key.wrong_password" = "Wrong Password!";
+"key.success" = "Success";
+"key.password_changed" = "Passwords Changed!";
+"key.email" = "电邮";
+"key.save_to_camera" = "存到相簿";
+"key.do_you_want" = "Do you want to set an entry for this date?";
+
+"key.Ecstatic" = "又喜又狂";
+"key.Relaxed" = "放松";
+"key.Bored" = "无聊";
+"key.Excited" = "兴奋";
+"key.Crazy" = "抓狂";
+"key.Grumpy" = "易怒";
+"key.Happy" = "开心";
+"key.Silly" = "犯傻";
+"key.Exhausted" = "累到不行";
+"key.Lovestruck" = "爱到神昏颠倒";
+"key.Shocked" = "震惊";
+"key.Guilty" = "愧疚";
+"key.Inspired" = "受到激发";
+"key.Confused" = "困惑";
+"key.Stressed" = "压力大";
+"key.Proud" = "骄傲";
+"key.Restless" = "不安";
+"key.Sick" = "病恹恹";
+"key.Confident" = "有自信";
+"key.Emotional" = "情绪多端";
+"key.Heartbroken" = "心碎";
+"key.Grateful" = "感激";
+"key.Nervous" = "紧张";
+"key.Lonely" = "寂寞";
+"key.Content" = "满意";
+"key.Jealous" = "嫉妒";
+"key.Sad" = "难过";
+"key.Hopeful" = "充满希望";
+"key.Scared" = "害怕";
+"key.Angry" = "生气";

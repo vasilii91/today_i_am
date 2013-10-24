@@ -13,6 +13,8 @@
     #import <Foundation/Foundation.h>
     #import "Core/Macroses.h"
     #import "FontManager.h"
+    #import "Core/Constants.h"
+    #import "UserSettings.h"
 #endif
 
 #define UIAppDelegate   (AppDelegate *)[[UIApplication sharedApplication] delegate]

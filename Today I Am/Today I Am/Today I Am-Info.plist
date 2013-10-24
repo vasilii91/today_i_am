@@ -22,7 +22,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.kristy-anderson.todayiam</string>
+	<string>com.mood.sweet.app</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -56,6 +56,7 @@
 		<string>batang.ttf</string>
 		<string>fangsong.ttf</string>
 		<string>tahoma.ttf</string>
+		<string>APJapanesefont.ttf</string>
 	</array>
 	<key>UIPrerenderedIcon</key>
 	<true/>
@@ -64,7 +65,7 @@
 		<string>armv7</string>
 	</array>
 	<key>UIStatusBarHidden</key>
-	<true/>
+	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

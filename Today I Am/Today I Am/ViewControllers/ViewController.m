@@ -14,6 +14,9 @@
 #import "PrivacyLock.h"
 #import "EditYourEmotions.h"
 #import "PasswordScreen.h"
+#import "UpdateRestoreViewController.h"
+#import "FlurryAds.h"
+
 
 @interface ViewController ()
 {
@@ -66,6 +69,20 @@
     }
 
     [UIView commitAnimations];
+    
+    if ([UserSettings sharedSingleton].isFreeVersion) {
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            if ([FlurryAds adReadyForSpace:@"Full Screen Mood Sweet"]) {
+                [FlurryAds displayAdForSpace:@"Full Screen Mood Sweet" onView:self.view];
+            }
+            else {
+                [FlurryAds fetchAdForSpace:@"Full Screen Mood Sweet" frame:self.view.frame size:FULLSCREEN];
+            }
+        });
+        
+        [FlurryAds fetchAndDisplayAdForSpace:@"Banner Mood Sweet" view:self.view size:BANNER_BOTTOM];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -151,11 +168,6 @@
             [self performSelector:@selector(navigate:) withObject:view afterDelay:0.25];
             break;
         }
-        case 106:
-        {
-            
-            break;
-        }
             
         default:
         {
@@ -165,6 +177,12 @@
             break;
         }
     }
+}
+
+- (IBAction)restoreOrUpdateAction:(id)sender
+{
+    UpdateRestoreViewController *view = [[UpdateRestoreViewController alloc] init];
+    [self performSelector:@selector(navigate:) withObject:view afterDelay:0.25];
 }
 
 

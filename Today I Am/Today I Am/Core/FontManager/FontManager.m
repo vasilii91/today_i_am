@@ -11,8 +11,7 @@
 #define FONT_NAME_CHINESE @"FangSong"
 #define FONT_NAME_KOREAN @"Batang"
 
-#warning change it!!!
-#define FONT_NAME_JAPANESE @"Batang"
+#define FONT_NAME_JAPANESE @"APJapanesefont"
 
 @implementation FontManager
 

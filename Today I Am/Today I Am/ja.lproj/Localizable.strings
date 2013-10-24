@@ -20,8 +20,6 @@
 "key.this_month_i_have_been" = "今月の気持ちは...";
 "key.this_year_i_have_been" = "今年の気持ちは...";
 
-"key.edit_your_emotions" = "エモーションの編集";
-
 "key.enter_new_password" = "パスワードの入力";
 "key.enter_new_password_again" = "パスワードの再入力";
 "key.enter_current_password" = "現存パスワードの入力";
@@ -37,6 +35,8 @@
 "key.button_done" = "決定";
 "key.button_cancel" = "キャンセル";
 "key.button_ok" = "OK";
+"key.button_update" = "Remove Ads";
+"key.button_restore" = "Restore";
 
 "key.how_are_you" = "どれくらい %@？";
 "key.why_are_you" = "どうして %@?";
@@ -57,6 +57,7 @@
 "key.password_changed" = "Passwords Changed!";
 "key.email" = "Eメール";
 "key.save_to_camera" = "カメラロールに保存";
+"key.do_you_want" = "Do you want to set an entry for this date?";
 
 "key.Ecstatic" = "夢の中";
 "key.Relaxed" = "リラックス";

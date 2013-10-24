@@ -20,8 +20,6 @@
 "key.this_month_i_have_been" = "This month I have been...";
 "key.this_year_i_have_been" = "This year I have been...";
 
-"key.edit_your_emotions" = "Edit your emotions";
-
 "key.enter_new_password" = "Enter new password";
 "key.enter_new_password_again" = "Enter new password again";
 "key.enter_current_password" = "Enter current password";
@@ -37,6 +35,8 @@
 "key.button_done" = "Done";
 "key.button_cancel" = "Cancel";
 "key.button_ok" = "OK";
+"key.button_update" = "Remove Ads";
+"key.button_restore" = "Restore";
 
 "key.how_are_you" = "How %@ are you?";
 "key.why_are_you" = "Why are you %@?";
@@ -57,6 +57,7 @@
 "key.password_changed" = "Passwords Changed!";
 "key.email" = "Email";
 "key.save_to_camera" = "Save to Camera Roll";
+"key.do_you_want" = "Do you want to set an entry for this date?";
 
 "key.Ecstatic" = "Ecstatic";
 "key.Relaxed" = "Relaxed";
