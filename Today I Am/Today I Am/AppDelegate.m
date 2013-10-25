@@ -41,8 +41,11 @@ void getMemoryDetails(void) {
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [Flurry startSession:@"KVMJZVKCGMTC5WDV8XNQ"];
-    [self showAds];
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [Flurry startSession:@"KVMJZVKCGMTC5WDV8XNQ"];
+        [self showAds];
+    });
     
 //    [[MKStoreManager sharedManager] removeAllKeychainData];
     
@@ -159,7 +162,7 @@ void getMemoryDetails(void) {
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    [self application:application didFinishLaunchingWithOptions:nil];
+//    [self application:application didFinishLaunchingWithOptions:nil];
 //    [FBSession.activeSession handleDidBecomeActive];
     
 }

@@ -8,7 +8,7 @@
 
 #import "UpdateRestoreViewController.h"
 #import "MKStoreManager.h"
-
+#import "AppDelegate.h"
 
 @interface UpdateRestoreViewController ()
 
@@ -51,9 +51,9 @@
     [[MKStoreManager sharedManager] buyFeature:IN_APP_PURCHASE_ID_REMOVE_ADS onComplete:^(NSString *purchasedFeature, NSData *purchasedReceipt, NSArray *availableDownloads) {
         
     } onCancelled:^{
-        
+        [AppDelegate(AppDelegate) showAds];
     } onFailed:^(NSError *error) {
-        
+        [AppDelegate(AppDelegate) showAds];
     }];
 }
 

@@ -13,7 +13,7 @@
 "key.privacy_lock" = "隐私锁";
 "key.restore_or_update" = "提升";
 
-"key.this_month_i_am" = "This month I am...";
+"key.this_month_i_am" = "这个月我都很…";
 
 "key.rename_to" = "将%@重新命名为";
 "key.this_week_i_have_been" = "这礼拜我都很…";
@@ -35,29 +35,29 @@
 "key.button_done" = "已完成";
 "key.button_cancel" = "取消";
 "key.button_ok" = "好了";
-"key.button_update" = "Remove Ads";
-"key.button_restore" = "Restore";
+"key.button_update" = "删除广告";
+"key.button_restore" = "恢复";
 
 "key.how_are_you" = "您多么%@呢?";
 "key.why_are_you" = "为什么您很%@呢?";
 
 "key.this_entry_has_not_been" = "这篇记事尚未存档或更新。您要先存档或更新吗？\n\n";
 "key.saved_to_diary" = "存到日记";
-"key.you_already_have_records" = "You already have records for today!";
-"key.want_to_replace_them" = "Want to replace them?";
+"key.you_already_have_records" = "今天的感情已经保存!";
+"key.want_to_replace_them" = "你想改变吗";
 
-"key.your_top_5_emotions" = "* Your top 5 emotions";
+"key.your_top_5_emotions" = "*情绪的五大";
 
 "key.privacy_lock_activated" = "已启动密码锁，请别忘记您的密码";
 "key.failed" = "错误";
 "key.passwords_did_not_matched" = "密码不符合";
-"key.error" = "ERROR";
-"key.wrong_password" = "Wrong Password!";
-"key.success" = "Success";
-"key.password_changed" = "Passwords Changed!";
+"key.error" = "错误";
+"key.wrong_password" = "密码是不正确的！";
+"key.success" = "是成功的。";
+"key.password_changed" = "更改密码!";
 "key.email" = "电邮";
 "key.save_to_camera" = "存到相簿";
-"key.do_you_want" = "Do you want to set an entry for this date?";
+"key.do_you_want" = "你想配置进入到这一天吗？";
 
 "key.Ecstatic" = "又喜又狂";
 "key.Relaxed" = "放松";

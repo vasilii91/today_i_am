@@ -13,7 +13,7 @@
 "key.privacy_lock" = "プラーバシーロック";
 "key.restore_or_update" = "アップグレード";
 
-"key.this_month_i_am" = "This month I am...";
+"key.this_month_i_am" = "今月の気持ちは...";
 
 "key.rename_to" = "エモーション名 %@ 変更";
 "key.this_week_i_have_been" = "今週の気持ちは...";
@@ -35,29 +35,29 @@
 "key.button_done" = "決定";
 "key.button_cancel" = "キャンセル";
 "key.button_ok" = "OK";
-"key.button_update" = "Remove Ads";
-"key.button_restore" = "Restore";
+"key.button_update" = "広告を削除";
+"key.button_restore" = "復元する";
 
 "key.how_are_you" = "どれくらい %@？";
 "key.why_are_you" = "どうして %@?";
 
 "key.this_entry_has_not_been" = "このエントリーは保存又はアップロードされていません。保存又はアップロードしますか？\n\n";
 "key.saved_to_diary" = "ダイアリーに保存";
-"key.you_already_have_records" = "You already have records for today!";
-"key.want_to_replace_them" = "Want to replace them?";
+"key.you_already_have_records" = "今日の気持ちは既に保存されています！";
+"key.want_to_replace_them" = "変更しますか？";
 
-"key.your_top_5_emotions" = "* Your top 5 emotions";
+"key.your_top_5_emotions" = "*上位５つのエモーション";
 
 "key.privacy_lock_activated" = "プライバシーロックが有効になりました。パスワードを忘れないで下さい！";
 "key.failed" = "失敗";
 "key.passwords_did_not_matched" = "パスワードの不一致";
-"key.error" = "ERROR";
-"key.wrong_password" = "Wrong Password!";
-"key.success" = "Success";
-"key.password_changed" = "Passwords Changed!";
+"key.error" = "エラー";
+"key.wrong_password" = "パスワードが違います！";
+"key.success" = "成功しました。";
+"key.password_changed" = "パスワードが変更されました！";
 "key.email" = "Eメール";
 "key.save_to_camera" = "カメラロールに保存";
-"key.do_you_want" = "Do you want to set an entry for this date?";
+"key.do_you_want" = "この日にエントリーを設定しますか？";
 
 "key.Ecstatic" = "夢の中";
 "key.Relaxed" = "リラックス";

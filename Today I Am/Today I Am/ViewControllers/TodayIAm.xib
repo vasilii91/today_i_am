@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1552</int>
-		<string key="IBDocument.SystemVersion">12E55</string>
+		<string key="IBDocument.SystemVersion">13A603</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.39</string>
-		<string key="IBDocument.HIToolboxVersion">626.00</string>
+		<string key="IBDocument.AppKitVersion">1265</string>
+		<string key="IBDocument.HIToolboxVersion">695.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">2083</string>
@@ -169,6 +169,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<bool key="IBUIEnabled">NO</bool>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<reference key="IBUIHighlightedTitleColor" ref="432060060"/>
@@ -252,6 +253,7 @@
 						<string key="NSFrame">{{0, 568}, {320, 467}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -289,7 +291,7 @@
 								<string key="NSFrame">{{0, 39}, {320, 6}}</string>
 								<reference key="NSSuperview" ref="396620742"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="273637292"/>
+								<reference key="NSNextKeyView" ref="581949811"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">2</int>
@@ -303,7 +305,7 @@
 								<string key="NSFrame">{{13, 17}, {267, 26}}</string>
 								<reference key="NSSuperview" ref="396620742"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="38111500"/>
+								<reference key="NSNextKeyView" ref="273637292"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -450,7 +452,7 @@
 										<string key="NSFrame">{{166, 233}, {109, 37}}</string>
 										<reference key="NSSuperview" ref="273637292"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="581949811"/>
+										<reference key="NSNextKeyView" ref="38111500"/>
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="IBUIOpaque">NO</bool>
 										<int key="IBUIContentMode">1</int>
@@ -479,6 +481,14 @@
 										<int key="IBUIContentVerticalAlignment">0</int>
 										<float key="IBUIMaxValue">10</float>
 										<bool key="IBUIContinuous">NO</bool>
+										<object class="NSColor" key="IBUIMinimumTrackTintColor">
+											<int key="NSColorSpace">1</int>
+											<bytes key="NSRGB">MC44NTg4MjM1Mjk0IDAuMjI3NDUwOTgwNCAwLjI2NjY2NjY2NjcAA</bytes>
+										</object>
+										<object class="NSColor" key="IBUIMaximumTrackTintColor">
+											<int key="NSColorSpace">1</int>
+											<bytes key="NSRGB">MC40IDAuMTA1ODgyMzUyOSAwLjA5MDE5NjA3ODQzAA</bytes>
+										</object>
 									</object>
 									<object class="IBUILabel" id="344150787">
 										<reference key="NSNextResponder" ref="273637292"/>
@@ -1344,22 +1354,67 @@
 					<string key="className">TodayIAm</string>
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="IamAlso:">id</string>
+						<string key="back:">id</string>
+						<string key="doneAddingEmo:">id</string>
 						<string key="emoSelected:">id</string>
+						<string key="hideDetail:">id</string>
+						<string key="hideDoneView:">id</string>
 						<string key="hideTextview:">id</string>
+						<string key="menu:">id</string>
+						<string key="saveToDiary:">id</string>
 						<string key="show:">id</string>
+						<string key="uploadButtonClicked:">id</string>
+						<string key="valueChanged:">UISlider</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="IamAlso:">
+							<string key="name">IamAlso:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="back:">
+							<string key="name">back:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="doneAddingEmo:">
+							<string key="name">doneAddingEmo:</string>
+							<string key="candidateClassName">id</string>
+						</object>
 						<object class="IBActionInfo" key="emoSelected:">
 							<string key="name">emoSelected:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="hideDetail:">
+							<string key="name">hideDetail:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="hideDoneView:">
+							<string key="name">hideDoneView:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="hideTextview:">
 							<string key="name">hideTextview:</string>
 							<string key="candidateClassName">id</string>
 						</object>
+						<object class="IBActionInfo" key="menu:">
+							<string key="name">menu:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="saveToDiary:">
+							<string key="name">saveToDiary:</string>
+							<string key="candidateClassName">id</string>
+						</object>
 						<object class="IBActionInfo" key="show:">
 							<string key="name">show:</string>
 							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="uploadButtonClicked:">
+							<string key="name">uploadButtonClicked:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="valueChanged:">
+							<string key="name">valueChanged:</string>
+							<string key="candidateClassName">UISlider</string>
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
