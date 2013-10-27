@@ -40,7 +40,7 @@
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">311</int>
 						<array class="NSMutableArray" key="NSSubviews"/>
-						<string key="NSFrameSize">{320, 212}</string>
+						<string key="NSFrameSize">{320, 288}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="451172759"/>
@@ -54,7 +54,7 @@
 					<object class="IBUIButton" id="426794000">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{29, 260}, {108, 37}}</string>
+						<string key="NSFrame">{{29, 285}, {108, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1070106287"/>
@@ -94,7 +94,7 @@
 					<object class="IBUIButton" id="1070106287">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{183, 260}, {108, 37}}</string>
+						<string key="NSFrame">{{183, 285}, {108, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -219,10 +219,10 @@
 						<int key="objectID">1</int>
 						<reference key="object" ref="191373211"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="655947953"/>
 							<reference ref="451172759"/>
 							<reference ref="426794000"/>
 							<reference ref="1070106287"/>
+							<reference ref="655947953"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -286,67 +286,22 @@
 					<string key="className">TodayIAm</string>
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="IamAlso:">id</string>
-						<string key="back:">id</string>
-						<string key="doneAddingEmo:">id</string>
 						<string key="emoSelected:">id</string>
-						<string key="hideDetail:">id</string>
-						<string key="hideDoneView:">id</string>
 						<string key="hideTextview:">id</string>
-						<string key="menu:">id</string>
-						<string key="saveToDiary:">id</string>
 						<string key="show:">id</string>
-						<string key="uploadButtonClicked:">id</string>
-						<string key="valueChanged:">UISlider</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="IamAlso:">
-							<string key="name">IamAlso:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="back:">
-							<string key="name">back:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="doneAddingEmo:">
-							<string key="name">doneAddingEmo:</string>
-							<string key="candidateClassName">id</string>
-						</object>
 						<object class="IBActionInfo" key="emoSelected:">
 							<string key="name">emoSelected:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="hideDetail:">
-							<string key="name">hideDetail:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="hideDoneView:">
-							<string key="name">hideDoneView:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="hideTextview:">
 							<string key="name">hideTextview:</string>
 							<string key="candidateClassName">id</string>
 						</object>
-						<object class="IBActionInfo" key="menu:">
-							<string key="name">menu:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="saveToDiary:">
-							<string key="name">saveToDiary:</string>
-							<string key="candidateClassName">id</string>
-						</object>
 						<object class="IBActionInfo" key="show:">
 							<string key="name">show:</string>
 							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="uploadButtonClicked:">
-							<string key="name">uploadButtonClicked:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="valueChanged:">
-							<string key="name">valueChanged:</string>
-							<string key="candidateClassName">UISlider</string>
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">

@@ -29,8 +29,6 @@
 @property (strong, nonatomic) UINavigationController *navigationConteoller;
 @property (strong, nonatomic) ViewController *viewController;
 
--(void) memoryCondition;
-
 -(bool)isLessHundred:(NSMutableArray*)todayMeasures todayEmotions:(NSMutableArray*)todayEmotions indexMode:(int)indexMode;
 -(bool)isMoreHundred:(NSMutableArray*)todayMeasures todayEmotions:(NSMutableArray*)todayEmotions indexMode:(int)indexMode;
 @property(assign) int calibrationIndexDiaryPie;

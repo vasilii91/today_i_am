@@ -22,31 +22,8 @@
 
 @synthesize calibrationIndexDiaryPie,calibrationIndexHappinessPie,calibrationIndexTodayIam;
 
-void getMemoryDetails(void) {
-    struct task_basic_info info;
-    mach_msg_type_number_t size = sizeof(info);
-    kern_return_t kerr = task_info(mach_task_self(),TASK_BASIC_INFO,(task_info_t)&info,&size);
-    if( kerr == KERN_SUCCESS ) {
-        NSLog(@" ------   Memory in use: %.5fMB", info.resident_size / 8000000.0);
-    } else {
-        NSLog(@"Error with task_info(): %s", mach_error_string(kerr));
-    }
-}
-
--(void) memoryCondition
-{
-    //getMemoryDetails();
-}
-
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        [Flurry startSession:@"KVMJZVKCGMTC5WDV8XNQ"];
-        [self showAds];
-    });
-    
 //    [[MKStoreManager sharedManager] removeAllKeychainData];
     
     [MKStoreManager sharedManager];
@@ -65,6 +42,13 @@ void getMemoryDetails(void) {
     self.calibrationIndexDiaryPie=-1;
     self.calibrationIndexHappinessPie=-1;
     self.calibrationIndexTodayIam=-1;
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [Flurry startSession:@"KVMJZVKCGMTC5WDV8XNQ"];
+        [FlurryAds initialize:self.window.rootViewController];
+        [self showAds];
+    });
     
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     if ([prefs objectForKey:@"password"]) {
@@ -127,15 +111,15 @@ void getMemoryDetails(void) {
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         if ([UserSettings sharedSingleton].isFreeVersion) {
-            static dispatch_once_t onceToken;
-            dispatch_once(&onceToken, ^{
-                if ([FlurryAds adReadyForSpace:@"Full Screen Mood Sweet"]) {
-                    [FlurryAds displayAdForSpace:@"Full Screen Mood Sweet" onView:self.window];
-                }
-                else {
-                    [FlurryAds fetchAdForSpace:@"Full Screen Mood Sweet" frame:self.window.frame size:FULLSCREEN];
-                }
-            });
+//            static dispatch_once_t onceToken;
+//            dispatch_once(&onceToken, ^{
+//                if ([FlurryAds adReadyForSpace:@"Full Screen Mood Sweet"]) {
+//                    [FlurryAds displayAdForSpace:@"Full Screen Mood Sweet" onView:self.window];
+//                }
+//                else {
+//                    [FlurryAds fetchAdForSpace:@"Full Screen Mood Sweet" frame:self.window.frame size:FULLSCREEN];
+//                }
+//            });
             
             [FlurryAds fetchAndDisplayAdForSpace:@"Banner Mood Sweet" view:self.window size:BANNER_BOTTOM];
         }

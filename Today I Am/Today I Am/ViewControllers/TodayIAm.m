@@ -8,16 +8,14 @@
 
 #import "TodayIAm.h"
 #import <QuartzCore/QuartzCore.h>
-
 #import "NSDate+convenience.h"
-
 #import "ViewController.h"
 #import "CustomAlertView.h"
-
 #import "AppDelegate.h"
-
-
 #import "UploadView.h"
+#import "FlurryAds.h"
+
+
 @interface TodayIAm ()
 
 @end
@@ -252,6 +250,8 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
+    [super viewWillAppear:animated];
+    
     emoDetailView.frame = CGRectMake(0, 568, emoDetailView.frame.size.width, emoDetailView.frame.size.height);
 }
 
@@ -562,15 +562,8 @@
     //Test
     calibrationNeededLess=[delegate isLessHundred:todayMeasure todayEmotions:todayEmotions indexMode:TodayIamIndex];
     calibrationNeededMore=[delegate isMoreHundred:todayMeasure todayEmotions:todayEmotions indexMode:TodayIamIndex];
-    NSLog(calibrationNeededLess ? @"Yes" : @"No");
-    NSLog(calibrationNeededMore ? @"Yes" : @"No");
-    NSLog(@"IndexLess: %d",delegate.calibrationIndexTodayIam);
-    NSLog(@"IndexMore: %d",delegate.calibrationIndexTodayIam);
     //End Test
     [pieChartRight reloadData];
-    
-    
-    [delegate memoryCondition];
     
 }
 
@@ -755,7 +748,7 @@
         
     [[UIImage imageNamed:@"exportBG"] drawAsPatternInRect:CGRectMake(0, 0, finalSize.width, finalSize.height)];
     
-    [[UIImage imageNamed:@"header-1.png"] drawInRect:CGRectMake(10, 10, 95+48, 43 + 22)];
+    [[UIImage imageNamed:@"mood_sweet.png"] drawInRect:CGRectMake(20, 20, 190, 43)];
     
     float x = (finalSize.width-pieChartRight.frame.size.width)/2;
     float y = (finalSize.height-pieChartRight.frame.size.height)/2;

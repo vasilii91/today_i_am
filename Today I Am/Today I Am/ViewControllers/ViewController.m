@@ -80,9 +80,10 @@
                                   button.frame.size.width,
                                   button.frame.size.height);
     }
-    
-    UIColor *color = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pie.png"]];
-    NSLog(@"COLOR TEXT : %@",[self stringFromColor:color]);
+
+    // 2. Fetch fullscreen ads for later display
+	[FlurryAds fetchAdForSpace:@"Banner Mood Sweet"
+                         frame:self.view.frame size:FULLSCREEN];
 }
 
 - (void)viewDidUnload

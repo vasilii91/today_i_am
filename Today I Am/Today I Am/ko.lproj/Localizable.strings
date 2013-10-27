@@ -11,9 +11,9 @@
 "key.happiness_history" = "행복 기록";
 "key.edit_your_emotions" = "당신의 감정을 수정하세요";
 "key.privacy_lock" = "프라이버시 로크";
-"key.restore_or_update" = "Restore or Update";
+"key.restore_or_update" = "광고를 제거";
 
-"key.this_month_i_am" = "This month I am...";
+"key.this_month_i_am" = "이번 달에 저는…";
 
 "key.rename_to" = "로 %@ 이름바꾸기";
 "key.this_week_i_have_been" = "이번 주에 저는…";

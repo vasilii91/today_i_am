@@ -359,7 +359,7 @@
     UIGraphicsBeginImageContextWithOptions(finalSize, NO, 0.0);
 
     [[UIImage imageNamed:@"exportBG"] drawAsPatternInRect:CGRectMake(0, 0, finalSize.width, finalSize.height)];
-    [[UIImage imageNamed:@"header-1.png"] drawInRect:CGRectMake(10, 10, 95+48, 43 + 22)];
+    [[UIImage imageNamed:@"mood_sweet.png"] drawInRect:CGRectMake(20, 20, 190, 43)];
     
     float x = (finalSize.width-pieChartRight.frame.size.width)/2;
     float y = (finalSize.height-pieChartRight.frame.size.height)/2;
