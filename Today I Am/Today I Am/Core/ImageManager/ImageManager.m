@@ -72,8 +72,8 @@
 {
     UIImage *textureImage = [UIImage imageNamed:[NSString stringWithFormat:@"texture%d", textureIndex]];
     CGSize currentSize = textureImage.size;
-    currentSize = CGSizeMake(currentSize.width * 0.6,
-                             currentSize.height * 0.6);
+    currentSize = CGSizeMake(currentSize.width * 0.2,
+                             currentSize.height * 0.2);
     textureImage = [self resizeImage:textureImage toSize:currentSize];
     
     return [UIColor colorWithPatternImage:textureImage];
