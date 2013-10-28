@@ -274,14 +274,14 @@
     
     if ([todayEmotions count]==1) {
         if (index == 0) {
-            return [UIColor colorWithPatternImage:[UIImage imageNamed:[NSString stringWithFormat:@"texture%d",[[todayEmotions objectAtIndex:0]intValue]]]];
+            return [ImageManager colorByTextureIndex:[todayEmotions[0] intValue]];
         }
         else{
             return [UIColor clearColor];
         }
     }
     else{
-        return [UIColor colorWithPatternImage:[UIImage imageNamed:[NSString stringWithFormat:@"texture%d",[[todayEmotions objectAtIndex:index]intValue]]]];
+        return [ImageManager colorByTextureIndex:[todayEmotions[index] intValue]];
     }
 }
 
@@ -403,7 +403,7 @@
     NSString *msg = @"";
     
     if ([recordDate isEqualToDate:today]) {
-        msg = @"Today I’m…";
+        msg = @"Mood Sweet…";
     }
     else {
         msg = [NSString stringWithFormat:@"On %@ I was…",[formatter stringFromDate:recordDate]];

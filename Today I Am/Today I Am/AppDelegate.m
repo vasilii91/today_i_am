@@ -17,6 +17,7 @@
 #import "FlurryAds.h"
 #import "MKStoreManager.h"
 #import "UserSettings.h"
+#import <RevMobAds/RevMobAds.h>
 
 @implementation AppDelegate
 
@@ -50,6 +51,8 @@
         
 //        [Flurry setDebugLogEnabled:YES];
         [FlurryAds setAdDelegate:self];
+        
+        [RevMobAds startSessionWithAppID:@"526e3e9ae4b7b5c37c000019"];
         
         [self showAds];
     });
@@ -125,15 +128,8 @@
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         if ([UserSettings sharedSingleton].isFreeVersion) {
-            static dispatch_once_t onceToken;
-            dispatch_once(&onceToken, ^{
-                if ([FlurryAds adReadyForSpace:@"Full Screen Mood Sweet"]) {
-                    [FlurryAds displayAdForSpace:@"Full Screen Mood Sweet" onView:self.window];
-                }
-                else {
-                    [FlurryAds fetchAdForSpace:@"Full Screen Mood Sweet" frame:self.window.frame size:FULLSCREEN];
-                }
-            });
+            
+            [[RevMobAds session] showFullscreen];
             [FlurryAds fetchAndDisplayAdForSpace:@"Banner Mood Sweet" view:self.window size:BANNER_BOTTOM];
         }
     });

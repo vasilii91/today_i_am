@@ -316,17 +316,17 @@ NSLog(@"WEEK STRT %d END %d",[weekStart day],[weekEnd day]);
     switch (type) {
         case 1:
         {
-            view.message = @"Happiness History by Today I’m…";
+            view.message = @"Happiness History by Mood Sweet…";
             break;
         }
         case 2:
         {
-            view.message = @"Happiness History by Today I’m…";
+            view.message = @"Happiness History by Mood Sweet…";
             break;
         }
         case 3:
         {
-            view.message = @"Happiness History by Today I’m…";
+            view.message = @"Happiness History by Mood Sweet…";
             break;
         }
         default:
@@ -358,7 +358,7 @@ NSLog(@"WEEK STRT %d END %d",[weekStart day],[weekEnd day]);
 
 - (UIColor *)pieChart:(XYPieChart *)pieChart colorForSliceAtIndex:(NSUInteger)index
 {
-    return [UIColor colorWithPatternImage:[UIImage imageNamed:[NSString stringWithFormat:@"texture%d",[[emotions objectAtIndex:index] intValue]]]];
+    return [ImageManager colorByTextureIndex:[emotions[index] intValue]];
 }
 
 - (NSString *)pieChart:(XYPieChart *)pieChart textForSliceAtIndex:(NSUInteger)index

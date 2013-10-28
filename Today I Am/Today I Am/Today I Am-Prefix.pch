@@ -15,6 +15,7 @@
     #import "FontManager.h"
     #import "Core/Constants.h"
     #import "UserSettings.h"
+    #import "ImageManager.h"
 #endif
 
 #define UIAppDelegate   (AppDelegate *)[[UIApplication sharedApplication] delegate]

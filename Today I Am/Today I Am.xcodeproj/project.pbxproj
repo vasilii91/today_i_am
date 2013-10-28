@@ -43,6 +43,7 @@
 		BE2C7FCD181A85B90081A842 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2C7FCC181A85B90081A842 /* Default-568h@2x.png */; };
 		BE2C7FCF181A85CA0081A842 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2C7FCE181A85CA0081A842 /* Default@2x.png */; };
 		BE2C7FD1181A85D60081A842 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2C7FD0181A85D60081A842 /* Default.png */; };
+		BE483BD1181EA05D00CEFBDF /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE483BCF181EA05D00CEFBDF /* ImageManager.m */; };
 		BE4E02E118191AAD000AA2E1 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E02CD18191AAD000AA2E1 /* NSData+MKBase64.m */; };
 		BE4E02E218191AAD000AA2E1 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E02CF18191AAD000AA2E1 /* SFHFKeychainUtils.m */; };
 		BE4E02E318191AAD000AA2E1 /* MKSKProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E02D118191AAD000AA2E1 /* MKSKProduct.m */; };
@@ -239,6 +240,7 @@
 		BEC11DAC18112792001D377E /* home_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC11DA818112792001D377E /* home_button@2x.png */; };
 		BEC11DAF18112844001D377E /* nav_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC11DAD18112843001D377E /* nav_bar.png */; };
 		BEC11DB018112844001D377E /* nav_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC11DAE18112843001D377E /* nav_bar@2x.png */; };
+		BEDA8CC7181E9923007BEA41 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDA8CC6181E9923007BEA41 /* RevMobAds.framework */; };
 		BEDBB91818192A3400A26956 /* APJapanesefont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEDBB91718192A3400A26956 /* APJapanesefont.ttf */; };
 		BEDBB91C1819342800A26956 /* UpdateRestoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB91A1819342800A26956 /* UpdateRestoreViewController.m */; };
 		BEDBB91D1819342800A26956 /* UpdateRestoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDBB91B1819342800A26956 /* UpdateRestoreViewController.xib */; };
@@ -294,6 +296,8 @@
 		BE2C7FCC181A85B90081A842 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BE2C7FCE181A85CA0081A842 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BE2C7FD0181A85D60081A842 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE483BCF181EA05D00CEFBDF /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		BE483BD0181EA05D00CEFBDF /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
 		BE4E02CC18191AAD000AA2E1 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
 		BE4E02CD18191AAD000AA2E1 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
 		BE4E02CE18191AAD000AA2E1 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
@@ -518,6 +522,7 @@
 		BEC11DA818112792001D377E /* home_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_button@2x.png"; sourceTree = "<group>"; };
 		BEC11DAD18112843001D377E /* nav_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bar.png; sourceTree = "<group>"; };
 		BEC11DAE18112843001D377E /* nav_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bar@2x.png"; sourceTree = "<group>"; };
+		BEDA8CC6181E9923007BEA41 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
 		BEDBB91718192A3400A26956 /* APJapanesefont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = APJapanesefont.ttf; sourceTree = "<group>"; };
 		BEDBB9191819342800A26956 /* UpdateRestoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateRestoreViewController.h; sourceTree = "<group>"; };
 		BEDBB91A1819342800A26956 /* UpdateRestoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateRestoreViewController.m; sourceTree = "<group>"; };
@@ -555,6 +560,7 @@
 				92CD9D1A173BBB9700C9AB83 /* FacebookSDK.framework in Frameworks */,
 				BE2C57A01819021B00D8201D /* libFlurry_4.3.0.a in Frameworks */,
 				BE2C57A11819021B00D8201D /* libFlurryAds_4.3.0.a in Frameworks */,
+				BEDA8CC7181E9923007BEA41 /* RevMobAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +594,7 @@
 		92C4327816EB75BE00F5FCCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEDA8CC6181E9923007BEA41 /* RevMobAds.framework */,
 				BE4E02EE18191B4F000AA2E1 /* StoreKit.framework */,
 				BE2C57A21819037500D8201D /* MediaPlayer.framework */,
 				920D10AF17EDE380006F8B61 /* AssetsLibrary.framework */,
@@ -816,6 +823,7 @@
 		BEC11C7818110FC2001D377E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BEDA8CCC181E9F2E007BEA41 /* ImageManager */,
 				BEDBB923181938F600A26956 /* UserSettings */,
 				BEC11DA118111477001D377E /* FontManager */,
 				BEC11C7918110FC2001D377E /* Macroses.h */,
@@ -1071,6 +1079,15 @@
 				BEC11DA318111491001D377E /* FontManager.m */,
 			);
 			name = FontManager;
+			sourceTree = "<group>";
+		};
+		BEDA8CCC181E9F2E007BEA41 /* ImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				BE483BD0181EA05D00CEFBDF /* ImageManager.h */,
+				BE483BCF181EA05D00CEFBDF /* ImageManager.m */,
+			);
+			path = ImageManager;
 			sourceTree = "<group>";
 		};
 		BEDBB923181938F600A26956 /* UserSettings */ = {
@@ -1360,6 +1377,7 @@
 				BE4E02ED18191AAD000AA2E1 /* VerificationController.m in Sources */,
 				BEDBB91C1819342800A26956 /* UpdateRestoreViewController.m in Sources */,
 				BEDBB926181938F600A26956 /* UserSettings.m in Sources */,
+				BE483BD1181EA05D00CEFBDF /* ImageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

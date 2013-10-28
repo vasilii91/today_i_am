@@ -119,25 +119,11 @@
         case 1:{
             if (NSClassFromString(@"TWTweetComposeViewController")) {
                 
-                NSLog(@"Twitter framework is available on the device");
-                //code goes here
-                //create the object of the TWTweetComposeViewController
                 TWTweetComposeViewController *twitterComposer = [[TWTweetComposeViewController alloc]init];
-                //set the text that you want to post
-                //  [twitterComposer setInitialText:tweetTextField.text];
                 [twitterComposer setInitialText:self.message];
-                //add Image
                 [twitterComposer addImage:self.imageToUpload];
-                
-                //add Link
-                // [twitterComposer addURL:[NSURL URLWithString:@"http://iphonebyradix.blogspot.in"]];
-                
-                //display the twitter composer modal view controller
                 [self presentModalViewController:twitterComposer animated:YES];
                 
-                
-                
-                //check to update the user regarding his tweet
                 twitterComposer.completionHandler = ^(TWTweetComposeViewControllerResult res){
                     //if the posting is done successfully
                     if (res == TWTweetComposeViewControllerResultDone){
@@ -147,7 +133,7 @@
                         
                     }
                     //if posting is done unsuccessfully
-                    else if(res==TWTweetComposeViewControllerResultCancelled){
+                    else if (res==TWTweetComposeViewControllerResultCancelled){
 //                        CustomAlertView *alert = [[CustomAlertView alloc]initWithTitle:@"Alert" message:@"Tweet unsuccessful" delegate:nil cancelButtonTitle:nil otherButtonTitles:nil];
 //                        [alert show];
 //                        [self performSelector:@selector(hideAlert:) withObject:alert afterDelay:3];
@@ -157,14 +143,8 @@
                     [self.navigationController popViewControllerAnimated:NO];
                     //[tweetTextField resignFirstResponder];
                 };
-                
-                
-                
-                //releasing the twiter composer object.
-                
-            }else{
-                NSLog(@"Twitter framework is not available on the device");
-                
+            }
+            else{
                 CustomAlertView *alert = [[CustomAlertView alloc]initWithTitle:@"Alert" message:@"Your device cannot send the tweet now, kindly check the internet connection or make a check whether your device has atleast one twitter account setup" delegate:nil cancelButtonTitle:nil otherButtonTitles:nil];
                 [alert show];
                 [self performSelector:@selector(hideAlert:) withObject:alert afterDelay:3];
@@ -179,10 +159,8 @@
             if ([MFMailComposeViewController canSendMail])
             {
                 UIImage *image = self.imageToUpload;
-                //NSString *dowhat = recipeFromDetail;
                 
                 NSData *imageData = UIImageJPEGRepresentation(image, 1);
-//                NSData *imageData = UIImagePNGRepresentation(image);
                 
                 MFMailComposeViewController *mailer = [[MFMailComposeViewController alloc] init];
                 
@@ -190,7 +168,7 @@
                 
                 [mailer setSubject:self.message];
                 
-                [mailer addAttachmentData:imageData mimeType:@"image/jpg" fileName:[NSString stringWithFormat:@"Today I'm.jpg"]];
+                [mailer addAttachmentData:imageData mimeType:@"image/jpg" fileName:[NSString stringWithFormat:@"Mood Sweet.jpg"]];
 
 //                NSString *emailBody = self.message;
                 
