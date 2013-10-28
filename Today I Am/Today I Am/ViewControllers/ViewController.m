@@ -80,10 +80,6 @@
                                   button.frame.size.width,
                                   button.frame.size.height);
     }
-
-    // 2. Fetch fullscreen ads for later display
-	[FlurryAds fetchAdForSpace:@"Banner Mood Sweet"
-                         frame:self.view.frame size:FULLSCREEN];
 }
 
 - (void)viewDidUnload
@@ -171,6 +167,11 @@
 {
     UpdateRestoreViewController *view = [[UpdateRestoreViewController alloc] init];
     [self performSelector:@selector(navigate:) withObject:view afterDelay:0.25];
+}
+
+- (IBAction)clickOnLogo:(id)sender
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://appbydesign.co.uk/"]];
 }
 
 

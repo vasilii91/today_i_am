@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Today I Am/ViewControllers/ViewController.m"
-         timestampString = "404306290.826239"
+         timestampString = "404648061.495849"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "135"
-         endingLineNumber = "135"
+         startingLineNumber = "131"
+         endingLineNumber = "131"
          landmarkName = "-navigateToScreens:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,13 +34,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Today I Am/AppDelegate.m"
-         timestampString = "404382039.525009"
+         timestampString = "404648655.392289"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "140"
-         endingLineNumber = "140"
-         landmarkName = "-showAds"
-         landmarkType = "5">
+         startingLineNumber = "153"
+         endingLineNumber = "153"
+         landmarkName = "@implementation AppDelegate"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
@@ -99,11 +99,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Today I Am/AppDelegate.m"
-         timestampString = "404382717.489634"
+         timestampString = "404648655.392289"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "52"
-         endingLineNumber = "52"
+         startingLineNumber = "56"
+         endingLineNumber = "56"
          landmarkName = "-application:didFinishLaunchingWithOptions:"
          landmarkType = "5">
       </FileBreakpoint>

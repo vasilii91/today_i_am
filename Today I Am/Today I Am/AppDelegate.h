@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 #import <FacebookSDK/FacebookSDK.h>
+#import "FlurryAdDelegate.h"
+
 
 @class ViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, FlurryAdDelegate>
 {
     NSManagedObjectModel *managedObjectModel;
 	NSManagedObjectContext *managedObjectContext;
